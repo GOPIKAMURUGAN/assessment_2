@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"
+    defer></script>
+  <style>
+    .navbar {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 1.1rem;
+      margin-right: 10px;
+      transition: color 0.2s;
+      color: white;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: black;
+    }
+
+
+    .css-px {
+      font-size: 18px;
+    }
+
+
+    .css-em {
+      font-size: 16px;
+    }
+
+    .css-em {
+      font-size: 1.5em;
+    }
+
+
+    .css-rem {
+      font-size: 1.5rem;
+    }
+
+
+    .css-percent {
+      font-size: 15px;
+    }
+
+    .css-percent {
+      font-size: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+    
+<a class="navbar-brand" href="#">
+  <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/house-fill.svg" alt="Home" width="30" height="24" style="margin-right:8px;vertical-align:middle;">
+  FITA HOME
+</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <hr>
+
+
+
+  <!-- task2 -->
+
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img
+            src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?_gl=1*1334jwz*_ga*MTQxNzAyMzk4MS4xNzQ5NjE5NzY1*_ga_8JE65Q40S6*czE3NTA5OTk5ODEkbzkkZzEkdDE3NTA5OTk5ODIkajU5JGwwJGgw"
+            class="card-img-top" alt="Card 1">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 1</h5>
+            <p class="card-text">Balloon</p>
+            <a href="#" class="btn btn-success">click</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img
+            src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?_gl=1*1334jwz*_ga*MTQxNzAyMzk4MS4xNzQ5NjE5NzY1*_ga_8JE65Q40S6*czE3NTA5OTk5ODEkbzkkZzEkdDE3NTA5OTk5ODIkajU5JGwwJGgw"
+            class="card-img-top" alt="Card 2">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 2</h5>
+            <p class="card-text">Balloon</p>
+            <a href="#" class="btn btn-primary">click</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img
+            src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?_gl=1*1334jwz*_ga*MTQxNzAyMzk4MS4xNzQ5NjE5NzY1*_ga_8JE65Q40S6*czE3NTA5OTk5ODEkbzkkZzEkdDE3NTA5OTk5ODIkajU5JGwwJGgw"
+            class="card-img-top" alt="Card 3">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 3</h5>
+            <p class="card-text">Balloon</p>
+            <a href="#" class="btn btn-danger">click</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- css task1 -->
+    <h3>css task1</h3>
+
+    <div class="css-px">HELLO</div>
+
+    <div class="css-em">
+      SEE YOU
+      <div class="css-em">WELCOME</div>
+    </div>
+
+    <div class="css-rem">THANKYOU</div>
+
+    <div class="css-percent">
+      SEE YOU
+      <div class="css-percent">BYE</div>
+    </div>
+</body>
+
+</html>
